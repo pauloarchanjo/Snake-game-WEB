@@ -1,0 +1,32 @@
+body {
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+background-color: #000000;
+}
+
+#game-board {
+background-image: url(dirt.jpg);  
+width: 100vmin;
+height: 100vmin;
+display: grid;
+grid-template-rows: repeat(21, 1fr);
+grid-template-columns: repeat(21, 1fr);
+border-left: 4px solid #222222;
+border-right: 4px solid #222222;
+}
+
+.snake {
+background-color: #0d822a;
+border: 2px solid #0c7226;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 20%);
+}
+
+.food {
+background-color: #d32000;
+border: 2px solid #b91c00;
+}
+  
